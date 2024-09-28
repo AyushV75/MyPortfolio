@@ -125,7 +125,7 @@
                         <span class="mx-1">&middot;</span>
                         <a class="small" href="#!">Terms</a>
                         <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
+                        <a class="small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -150,6 +150,8 @@
               .then(function(response) {
                  console.log('SUCCESS!', response.status, response.text);
                  alert('Email sent successfully!');
+                 // Clear the form fields after successful submission
+                document.getElementById('myForm').reset();
               }, function(error) {
                  console.log('FAILED...', error);
                  alert('Failed to send email.');
