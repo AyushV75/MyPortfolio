@@ -11616,10 +11616,10 @@ html {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 100%;
+  width: fit-content;
 
   transform: translateX(-50%);
-  border-radius: 20px;
+  border-radius: 30px;
   
 }
 .profile .dots-1 {
@@ -11630,6 +11630,7 @@ html {
 }
 .profile .dots-1 svg {
   fill: #000;
+  
 }
 .profile .dots-2 {
   position: absolute;
